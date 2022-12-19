@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Cadastro</title>
 </head>
-<form action="">
+
 <body>
+    <form action="">
     <h1>Realize seu cadastro</h1> <br/>
-<input type="text" placeholder="Seu nome"/> <br/>
+    <label for="text">Nome completo</label>
+<input type="text" id="text" /> <br/>
 <br/>
-<input type="email" placeholder="Seu email" /> <br/><br/>
+<label for="email">Endereço de email válido</label>
+<input id="email" type="email"  /> <br/><br/>
 <label for="password">Sua senha</label>
-<input  type="password"/> <br/><br/>
+<input id="password" type="password"/> <br/><br/>
 <button type="submit">
 Enviar!
 </button>
