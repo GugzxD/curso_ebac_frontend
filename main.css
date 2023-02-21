@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    padding: 16px;
+}
+
+form {
+    margin-left: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    text-align: center;
+}
+
+
+
+ol {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#lista {
+    list-style: disc;
+}
+
+.lista-item-riscado {
+    text-decoration: line-through;
+}
